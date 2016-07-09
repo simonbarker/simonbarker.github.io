@@ -7,14 +7,14 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Design and Develop"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Simon Barker"
+description              : "Portfolio and blog for Simon Barker."
+#url                      : "https://simonbarker.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "main-header.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -63,10 +63,10 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Simon Barker"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Founder, engineer, designer, developer"
+  location         : "UK"
   email            :
   uri              :
   bitbucket        :
