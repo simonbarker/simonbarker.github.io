@@ -11,7 +11,7 @@ title                    : "Design and Develop"
 title_separator          : "|"
 name                     : "Simon Barker"
 description              : "Portfolio and blog for Simon Barker."
-url                      : "http://127.0.0.1:4000/" #"https://simonbarker.github.io"
+url                      : "https://simonbarker.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : 
