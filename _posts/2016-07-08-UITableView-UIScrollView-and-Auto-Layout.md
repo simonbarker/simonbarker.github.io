@@ -18,6 +18,8 @@ Initially this seemed fairly straight forward to make, you just set the UITableV
 
 This is a quick guide on how to solve this problem (since I couldn't find one and had to spend a good few hours working it out), I'll walk you through making one of the Stock Controller App screens as it's a reasonably tricky layout and once we're done you'll have a pretty good idea of how to get Auto Layout working well.
 
+You can download the completed XCode project [here]({{ site.url }}/assets/downloads/AutoLayout tableview fill.zip)
+
 ### Step 1
 
 Create a single view application. First select the initial view controller go to Editor > Embed In > Navigation Controller. Then, select the initial view controller (now a navigation controller) and change the screen size to "iPhone 4-inch" - given that it's easier to scale up a design and the iPhone 5/S/SE are all very popular I like to design for the smaller screen size in the knowledge that everything will scale up well.
@@ -146,4 +148,6 @@ scrollView.scrollIndicatorInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, righ
 Some final design to make it look nice wouldn't hurt but as you can see below this runs on all screen sizes from iPhone 4S to 6S and even up to iPad Pro (although we should be a bit more imaginative at that scale perhaps!)
 
 ![step 21](/images/SCA UI/SCA UI S21.png){: .align-center}
+
+You can download the completed XCode project [here]({{ site.url }}/assets/downloads/AutoLayout tableview fill.zip)
 
