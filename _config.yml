@@ -8,13 +8,13 @@
 # Site Settings
 locale                   : "en"
 title                    : "Design and Develop"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Simon Barker"
 description              : "Portfolio and blog for Simon Barker."
-#url                      : "https://simonbarker.github.io"
+url                      : "http://127.0.0.1:4000/" #"https://simonbarker.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
-teaser                   : "main-header.png"
+teaser                   : 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -92,6 +92,21 @@ author:
   xing             :
   youtube          :
 
+defaults:
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Reading Files
 include:
@@ -131,7 +146,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+excerpt_separator: "<!-- more -->"
 incremental: false
 
 

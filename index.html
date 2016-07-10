@@ -1,14 +1,29 @@
 ---
-layout: splash
+layout: archive
 author_profile: true
+header:
+  image: main-header.png
 ---
+
+<!-- start index.html body -->
+
+<h1>Portfolio</h1>
 
 {% include base_path %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts }}</h3>
+<div class="grid__wrapper">
+  {% for post in site.portfolio %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+<h3 class="archive__subtitle" style="clear: both;">Recent Posts</h3>
 
-{% include paginator.html %}
+<div style="clear: both;">
+	{% for post in paginator.posts %}
+	  {% include archive-single.html %}
+	{% endfor %}
+
+	{% include paginator.html %}
+</div>
+<!-- end index.html body -->
